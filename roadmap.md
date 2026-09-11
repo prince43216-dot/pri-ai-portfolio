@@ -1,0 +1,4 @@
+- [ ] Establish portfolio design tokens and centralized content data
+- [ ] Build the responsive portfolio experience at `/`
+- [ ] Add interactions: loading, navigation, theme, command palette, projects, modal, form, scroll tools
+- [ ] Add metadata, error states, and verify the live preview
