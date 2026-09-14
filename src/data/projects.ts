@@ -66,4 +66,19 @@ export const projects: Project[] = [
     github: "",
     liveDemo: "",
   },
+  {
+    id: "nextech-craft",
+    title: "NexTech Craft",
+    description:
+      "A modern tech-accessories store offering premium and durable products for charging, gaming, audio, and workspaces.",
+    category: "Web Development",
+    technologies: ["E-commerce", "Web Development", "UI Design"],
+    image: nextechImage,
+    problem: "Tech accessories shoppers need a clean, trustworthy store with fast local delivery and reliable support.",
+    solution: "A focused e-commerce-style storefront that highlights quality products, affordable pricing, and customer support.",
+    features: ["Product catalog layout", "Local delivery focus", "Customer support section"],
+    learningOutcomes: ["E-commerce UX patterns", "Product presentation", "Trust-building design"],
+    github: "",
+    liveDemo: "https://nextech-store.lovable.app",
+  },
 ];
