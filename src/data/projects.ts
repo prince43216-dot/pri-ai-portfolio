@@ -2,6 +2,7 @@ import bankingImage from "@/assets/project-banking.jpg";
 import climateImage from "@/assets/project-climate.jpg";
 import machineLearningImage from "@/assets/project-ml.jpg";
 import nextechImage from "@/assets/project-nextech.jpg";
+import pharmaImage from "@/assets/project-pharma.jpg";
 import webImage from "@/assets/project-web.jpg";
 
 export type ProjectCategory = "AI" | "Machine Learning" | "Data Science" | "Web Development";
@@ -96,5 +97,20 @@ export const projects: Project[] = [
     learningOutcomes: ["Building localized AI experiences", "Generative media workflows", "Community-centered product design"],
     github: "",
     liveDemo: "https://climate-speak-india.lovable.app",
+  },
+  {
+    id: "pharmalocate",
+    title: "PharmaLocate",
+    description:
+      "A medicine availability platform that helps users find nearby pharmacies and check medicine stock.",
+    category: "Web Development",
+    technologies: ["Web Development", "Location Services", "Search & Filtering", "UI Design"],
+    image: pharmaImage,
+    problem: "Finding medicines in nearby pharmacies can be time-consuming, especially when stock and pricing vary across shops.",
+    solution: "A platform that lets users search for medicines by brand, generic name, or shop, with filters for availability, price, and recent updates.",
+    features: ["Search by brand, generic name, or shop", "Filter by availability, price, and recent updates", "Nearby pharmacy discovery", "Stock status checks"],
+    learningOutcomes: ["Location-based service design", "Search and filter UX", "Building practical utility platforms"],
+    github: "",
+    liveDemo: "https://stock-watch-meds.lovable.app",
   },
 ];
