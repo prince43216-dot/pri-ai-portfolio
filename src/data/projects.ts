@@ -114,4 +114,19 @@ export const projects: Project[] = [
     github: "",
     liveDemo: "https://stock-watch-meds.lovable.app",
   },
+  {
+    id: "streamverse",
+    title: "StreamVerse",
+    description:
+      "A modern streaming platform for discovering and watching movies and series, featuring trending titles, top picks, new releases, and genre-based collections.",
+    category: "Web Development",
+    technologies: ["Streaming UI", "Web Development", "JavaScript", "UI Design"],
+    image: streamverseImage,
+    problem: "Movie and series discovery can feel overwhelming without clear curation and a smooth browsing experience.",
+    solution: "A sleek, Netflix-inspired interface that surfaces trending titles, top picks, new releases, and genre collections.",
+    features: ["Trending and top-pick sections", "New releases showcase", "Genre-based collections", "Sleek streaming-inspired UI"],
+    learningOutcomes: ["Content-discovery UX", "Media-focused interface design", "Building engaging browsing experiences"],
+    github: "",
+    liveDemo: "https://watch-wellspring-app.lovable.app",
+  },
 ];
