@@ -3,6 +3,7 @@ import climateImage from "@/assets/project-climate.jpg";
 import machineLearningImage from "@/assets/project-ml.jpg";
 import nextechImage from "@/assets/project-nextech.jpg";
 import pharmaImage from "@/assets/project-pharma.jpg";
+import streamverseImage from "@/assets/project-streamverse.jpg";
 import webImage from "@/assets/project-web.jpg";
 
 export type ProjectCategory = "AI" | "Machine Learning" | "Data Science" | "Web Development";
