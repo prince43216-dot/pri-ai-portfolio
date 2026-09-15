@@ -82,4 +82,19 @@ export const projects: Project[] = [
     github: "",
     liveDemo: "https://nextech-store.lovable.app",
   },
+  {
+    id: "climateaction-local",
+    title: "ClimateAction Local",
+    description:
+      "A hyperlocal climate-awareness platform that creates personalized climate-action campaigns based on your state, language, and preferred voice.",
+    category: "AI",
+    technologies: ["AI", "Generative Media", "Localization", "Web Development"],
+    image: climateImage,
+    problem: "Climate information often feels distant and inaccessible, making it hard for local communities to take meaningful action.",
+    solution: "A hyperlocal platform that generates visual and audio campaigns tailored to a user's state, language, and voice preference.",
+    features: ["Personalized climate campaigns", "Visual and audio content generation", "State and language customization", "Community-focused action prompts"],
+    learningOutcomes: ["Building localized AI experiences", "Generative media workflows", "Community-centered product design"],
+    github: "",
+    liveDemo: "https://climate-speak-india.lovable.app",
+  },
 ];
